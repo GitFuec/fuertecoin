@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/fuertecoin_ar.qm</file>
+        <file alias="bg">locale/fuertecoin_bg.qm</file>
+        <file alias="de">locale/fuertecoin_de.qm</file>
+        <file alias="en">locale/fuertecoin_en.qm</file>
+        <file alias="es">locale/fuertecoin_es.qm</file>
+        <file alias="fi">locale/fuertecoin_fi.qm</file>
+        <file alias="fr">locale/fuertecoin_fr.qm</file>
+        <file alias="it">locale/fuertecoin_it.qm</file>
+        <file alias="ja">locale/fuertecoin_ja.qm</file>
+        <file alias="ko">locale/fuertecoin_ko.qm</file>
+        <file alias="nl">locale/fuertecoin_nl.qm</file>
+        <file alias="pl">locale/fuertecoin_pl.qm</file>
+        <file alias="pt">locale/fuertecoin_pt.qm</file>
+        <file alias="ro">locale/fuertecoin_ro.qm</file>
+        <file alias="ru">locale/fuertecoin_ru.qm</file>
+        <file alias="sk">locale/fuertecoin_sk.qm</file>
+        <file alias="th">locale/fuertecoin_th.qm</file>
+        <file alias="tr">locale/fuertecoin_tr.qm</file>
+        <file alias="vi">locale/fuertecoin_vi.qm</file>
+        <file alias="zh_CN">locale/fuertecoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/fuertecoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

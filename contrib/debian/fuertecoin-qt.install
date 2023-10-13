@@ -1,0 +1,6 @@
+usr/local/bin/fuertecoin-qt usr/bin
+share/pixmaps/fuertecoin32.xpm usr/share/pixmaps
+share/pixmaps/fuertecoin16.xpm usr/share/pixmaps
+share/pixmaps/fuertecoin128.png usr/share/pixmaps
+debian/fuertecoin-qt.desktop usr/share/applications
+debian/fuertecoin-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,22 @@
+[Unit]
+Description=Fuertecoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=fuertecoin
+Group=fuertecoin
+
+Type=forking
+PIDFile=/var/lib/fuertecoind/fuertecoind.pid
+ExecStart=/usr/bin/fuertecoind -daemon -pid=/var/lib/fuertecoind/fuertecoind.pid \
+-conf=/etc/fuertecoin/fuertecoin.conf -datadir=/var/lib/fuertecoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
