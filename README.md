@@ -1,4 +1,4 @@
-Fuertecoin Core Latest v1.1.2.0
+Fuertecoin Core Latest v1.1.5.0
 ===========================
 
 FuerteCoin is a dynamic cryptocurrency primarily aimed at enhancing the gaming experience within the video game universe. While it supports integration with online services, including betting platforms, its main goal is to revolutionize player interaction in digital games. Built on a state-of-the-art blockchain platform, FuerteCoin ensures strong financial privacy, enabling secure and discreet transactions for its users. This digital currency seamlessly integrates with a variety of games and online services, emphasizing its dedication to a fun, immersive, and smooth user experience. Key features of FuerteCoin include:
