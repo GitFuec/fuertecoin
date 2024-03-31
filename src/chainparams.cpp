@@ -548,10 +548,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_V17].nFalloffCoeff = 5; // this corresponds to 10 periods
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000000f7d54cb6"); // block 13000 chainwork
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000000000bf7898fbb98"); // block 140000 chainwork
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x26655d12dcd8d73dd9372e81e1000956b78aa46c828c3788b5da5e673e25915c"); // block hash for 13000
+        consensus.defaultAssumeValid = uint256S("0x1f818ebb4d7a61f0da190c37229907611844361946c2bc4b89336bc254d6d89c"); // block hash for 140000
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -652,7 +652,13 @@ public:
           {  {5000, uint256S("0x8cf9eca2c38a47b8515242d6db236aa67a0cdbbf95c2e73717f476d339ee8999")},
              {7000, uint256S("0x69afd3f3504258e04f7540bb84edf4a213b36e6e5f7c0e7db324e26377f858e9")},
              {9000, uint256S("0xdda56bce5bcffad58dd20747b38f5bfb8a1b4e39bb186f0e6966000e104d1945")},
-             {11000, uint256S("0x6b9fd407b209332660d48cb6a6a97436473d44bc2649688617b5ab044b2a3ae0")}
+             {11000, uint256S("0x6b9fd407b209332660d48cb6a6a97436473d44bc2649688617b5ab044b2a3ae0")},
+             {13000, uint256S("0x26655d12dcd8d73dd9372e81e1000956b78aa46c828c3788b5da5e673e25915c")},
+             {30000, uint256S("0xa3b8794a262acf82cdfdc43143ea8f79aa4746ec37682debdcee6ce407e384bb")},
+             {50000, uint256S("0x59b94993c259bc923d0a0cdf38df5cfb43d37f12347ca41ea36072cecb2f505d")},
+             {70000, uint256S("0x5b3ed5565b3f9c5a3258709d207e778b97ac748501262a10596b7ab4891e185b")},
+             {100000, uint256S("0x86bd0753489517f9d9c0f752bc45e811f33f2a1dc7f5349de77d786c9ce65b84")},
+             {120000, uint256S("0x6b2dd893ef61b22e1888f6d9c9a1eeb56f50e77b1706ad1b6aa1b53f568eb3e9")},
           }
         };
 
