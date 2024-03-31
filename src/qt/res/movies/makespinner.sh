@@ -4,7 +4,7 @@
 
 export LC_ALL=C
 FRAMEDIR=$(dirname $0)
-for i in {0..87}
+for i in {0..89}
 do
     frame=$(printf "%03d" $i)
     angle=$(($i * 4))
